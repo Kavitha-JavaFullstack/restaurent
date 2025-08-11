@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        header{
+            height: 200px;
+            width: 1510px;
+            display:flex;
+            justify-content:space-evenly;
+            border: 1px solid black;
+            line-height:600px;
+             text-align: center;
+        }
+        h1{
+            line-height: 200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:bolder ;
+            color: rgb(23, 197, 23);
+            font-size: 50px;
+        }
+        h2{
+            line-height:200px;
+        }
+        #imgref{
+            height:150px;
+            width:300px;
+            float: right;
+            margin-top: 30px;
+    
+        }
+
+        
+        .main{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .food{
+            display: grid;
+            height: 250px;
+            width: 300px;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+        h4{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            display:inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color:red;
+            margin-top: 10px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+       
+        img{
+            float: right;
+            height: 190px;
+            width: 299px;
+            border-radius: 5px;
+        }
+        
+ footer{
+            height: 100px;
+            width: auto;
+            border: solid 2px black;
+ }
+    </style>
+</head>
+<body>
+    <div>
+    <header>
+        <h2>&#9776</h2>
+        <h1>Neha's Restaurent</h1>
+       <img src="/Hello/nehalogo.jpg.png" alt="logo" id="imgref">
+       </header>
+    </div>
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="restaurent.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/ambience.html">Ambiance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Branches
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="1hyd.html">Hyderabad</a></li>
+            <li><a class="dropdown-item" href="#">Khammam</a></li>
+            <li><a class="dropdown-item" href="#">Warangal</la></li>
+            <li><a class="dropdown-item" href="#">Karimnagar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </header>
+    <div class="navlist">
+        
+    </div>
+               <center><h3>Our Special Items</h3></center>  
+    <div class="main">
+        <div class="food"> <img src="./assetsnon/byani.jpg" alt="biryani" >
+            <h4>Biryanis</h4></div>
+        <div class="food"> <img src="./assetsnon/noon.jpg"   alt="noons" >
+            <h4>Noons & Rotis</h4></div>
+        <div class="food"> <img src="./assetsnon/drink.jpg" alt="drinks" >
+        <h4>Cool Drinks</h4></div>
+        <div class="food"> <img src="assetsnon/ice.jpg" alt="ice cream" >
+        <h4>Ice-Creams</h4></div>
+    </div>
+    <footer>
+            <strong>Address📍:</strong>Khammam  <br>
+             <strong> contact☎️:</strong>0874212345 <br>
+             <strong>Email📧:</strong>neharestaurent@gmail.com <br>
+            <marquee direction="center"><strong>Thank you for visiting Neha's Restaurent 🍽️! Come back  you soon</strong></marquee> 
+        </footer>
+    </div>
+    
+</body>
+</html>
